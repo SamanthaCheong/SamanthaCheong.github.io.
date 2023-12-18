@@ -1,1 +1,1 @@
-# SamanthaCheong.github.io.
+# samanthacheong.github.io.
