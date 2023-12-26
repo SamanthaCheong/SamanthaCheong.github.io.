@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Health Survey Form</title>
+        <link rel="icon" type="image/x-icon" href="picture/favicon.ico">
+        <style>
+          body{font-size: 20px;
+               font-family: Arial, Helvetica, sans-serif;
+               background-color: rgb(196, 223, 191);}
+          form{padding: 2em;
+               }
+          label{width: 10em;}
+        </style>
+    </head>
+    <body>
+     <header>
+        <div id="logo">
+            <img src="picture/logohealthcompany-modified.png" width="300" alt="I'm off duty">
+        </div>
+     </header>
+     <main>
+       <p><b>Health Survey Form</b></p>
+       <p>____________________________________________________________________________________________________________________________________________________________</p>
+       <p>Complete this quick survey to tell us your health situation so that we can find out which product is more suitable for you.</p>
+       <form method="post" action="http://webdevbasics.net/scripts/demo.php">
+        <label for="fname">1.First Name:</label><br>
+        <input type="text" id="fname" name="fname" required><br>
+        <label for="lname">2.Last Name:</label><br>
+        <input type="text" id="lname" name="lname" required><br>
+        <label for="email" >3.Email</label><br>
+        <input type="email" id="email" name="Email" required><br>
+        <label for="age">4.Age:</label><br>
+        <input type="text" id="age" name="age"><br>
+        <label for="Exercise">5.Exercise how many times a week:</label><br>
+        <input type="text" id="Exercise" name="Exercise"><br>
+        <p>6.You are Boy or Girl:</p>
+        <input type="radio" id="boy" name="boy">
+        <label for="boy">Boy</label><br>
+        <input type="radio" id="girl" name="girl">
+        <label for="girl">Girl</label><br>
+        <p>7.Do you like our product:</p>
+        <input type="radio" id="like" name="like">
+        <label for="like">Yes</label><br>
+        <input type="radio" id="dislike" name="dislike">
+        <label for="dislike">No</label><br>
+        <p>8.How do you rate us?</p>
+        <input type="radio" id="5star" name="5star">
+        <label for="5star">5 star</label><br>
+        <input type="radio" id="4star" name="4star">
+        <label for="4star">4 star</label><br>
+        <input type="radio" id="3star" name="3star">
+        <label for="3star">3 star</label><br>
+        <input type="radio" id="2star" name="2star">
+        <label for="2star">2 star</label><br>
+        <input type="radio" id="1star" name="1star">
+        <label for="1star">1 star</label><br>
+        <br>
+        <input type="Submit" value="Submit"><br>
+       </form>
+
+     </main>
+    </body>
+</html>

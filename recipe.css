@@ -1,0 +1,187 @@
+/*header*/
+#logo{
+    text-align: left;
+}
+
+/*navigation menu*/
+#nav{
+    font-size: 25px;
+    background-image: linear-gradient( #64AA91 , rgb(202, 142, 102));
+    overflow: hidden; 
+    box-shadow: 8px 8px 10px rgb(79, 78, 78);
+    display: block;
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+}
+  
+#nav a{
+    display: block;
+    padding: 8px 8px 16px;
+    text-decoration: none;
+}
+
+#nav a:hover{
+    background-color: #422c2c;
+    color: rgb(206, 198, 198);
+    width: 100%;
+}
+
+#login a{
+    padding-left: 4%;
+}
+
+/*main content*/
+body{
+    background-image: url(picture/Fruits\ Daily.png);
+    background-size: cover;
+}
+
+.recipelist{
+    margin-left: 25%;
+}
+
+main h1 {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+#card{
+    margin-left: 30%;
+    margin-right: 10%;
+    background-color: white;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+#card{
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 10%;
+}
+
+.steps img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.row{
+    display: flex;
+}
+
+.column{
+    flex: 33.33%
+}
+
+.column h2 a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    border: solid 1.5px black;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.column h2 a:hover{
+    background-color: #b1adad;
+}
+
+/*footer*/
+footer{
+    font-style: italic;
+    font-size: medium;
+    text-align: center;
+    background-color:#83a685;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#contact-info{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px,auto));
+    gap: 1rem;
+}
+
+#contact-info h4{
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-style: normal;
+}
+
+#contact-info a{
+    text-decoration: none;
+    font-weight:bold;
+}
+
+#contact-info a:link{
+    color: rgb(103, 101, 101);
+}
+
+#contact-info a:visited{
+    color: #9b7761;
+}
+
+#contact-info a:hover{
+    color:darkolivegreen;
+}
+
+#contact-info a:active{
+    color: darkcyan;
+}
+
+#first-info p{
+    color: #565656;
+    font-size: 12px;
+    font-style: normal;
+}
+
+#second-info p{
+    font-style: normal;
+    font-size: 12px;
+}
+
+#second-info p:hover{
+    transform: scale(1.1,1.1);
+}
+
+#third-info p{
+    font-style: normal;
+    font-size: 12px;
+}
+
+#third-info p:hover{
+    transform: scale(1.1,1.1);
+}
+
+#fourth-info p{
+    font-style: normal;
+    font-size: 12px;
+}
+
+#fourth-info p:hover{
+    transform: scale(1.1,1.1);
+}
+
+#fifth-info p{
+    font-style: normal;
+    font-size: 12px;
+}
+
+#fifth-info p:hover{
+    transform: scale(1.1,1.1);
+}
+
+#sixth-info p{
+    font-style: normal;
+    font-size: 12px;
+}
+
+#sixth-info p:hover{
+    transform: scale(1.1,1.1);
+}
